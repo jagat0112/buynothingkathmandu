@@ -6,6 +6,10 @@
   font-style: normal;
 }
 
+html {
+  font-size: 100%;
+}
+
 body {
   background: url("Wavey-Fingerprint.svg");
   color: floralwhite;
@@ -16,4 +20,10 @@ body {
 h1 {
   font-size: 6rem;
   text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 4rem;
+  }
 }
